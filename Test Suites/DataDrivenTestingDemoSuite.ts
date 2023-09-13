@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataDrivenTestingDemoSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>92a8aebe-4c18-43ce-bd8f-652ca5ec925c</testSuiteGuid>
+   <testCaseLink>
+      <guid>3f82543c-4053-4a50-a963-4d027c7b6ac9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DataDrivenTestDemo</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d020ac98-bbec-470a-8e28-0da83bc22328</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData1</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>d020ac98-bbec-470a-8e28-0da83bc22328</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CountryCode</value>
+         <variableId>ef8c7878-8c9d-452d-ba5c-d6f9f4bb765a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d020ac98-bbec-470a-8e28-0da83bc22328</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Capital</value>
+         <variableId>d3eac2c8-faff-4b74-8ee9-e8f98473e839</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d020ac98-bbec-470a-8e28-0da83bc22328</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Currency</value>
+         <variableId>fa04b49d-bad0-4168-9e0f-e2a02fcfb352</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
